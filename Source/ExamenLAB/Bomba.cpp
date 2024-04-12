@@ -46,9 +46,9 @@ void ABomba::MoverBomba(float DeltaTime)
 	float NuevaY = 0.0f; // No se mueve en el eje X
 
 	// Calculamos la nueva posición en el eje Y
-	float NuevaPosicionBombaX = PosicionBombaActual.X + (velocidadBombaX * DeltaTime); // para que la nave se mueva horizontalmente
+	float NuevaPosicionBombaX = PosicionBombaActual.X + (velocidadBombaX * DeltaTime); 
 
-	// Verificamos si la nave ha alcanzado el límite superior o inferior
+	// Verificamos si la bomba ha alcanzado el límite superior o inferior
 	if (NuevaPosicionBombaX <= -1090.0f)
 	{
 		//NuevaPosicionBombaX = -310.0f; // para que vaya de izquierda a derecha

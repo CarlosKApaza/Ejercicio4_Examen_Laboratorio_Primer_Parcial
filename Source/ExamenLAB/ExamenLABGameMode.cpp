@@ -26,7 +26,7 @@ void AExamenLABGameMode::BeginPlay()
 	FVector ubicacionNaveActual = ubicacionNaveInicial;
 
 	UWorld* const world = GetWorld(); // get = entrar
-										// set = modificar
+										
 	if (world != nullptr)
 	{
 		// crear 5 naves enemigas
@@ -40,7 +40,7 @@ void AExamenLABGameMode::BeginPlay()
 
 	}
 
-	//// Establece la frecuencia de lanzamiento de bombas aleatorias en 5 segundos
+	//// Establecemos la frecuencia de lanzamiento de bombas aleatorias en 2 segundos
 	GetWorldTimerManager().SetTimer(BombasAleatorias, this, &AExamenLABGameMode::LanzarBombasAleatorias, 2.0f, true);
 }
 
@@ -50,29 +50,29 @@ void AExamenLABGameMode::LanzarBombasAleatorias()
 	UWorld* const World = GetWorld();
 	if (World != nullptr && TNavesEnemigas.Num() > 0)
 	{
-		// Obtener una nave enemiga aleatoria
+		// Obtenermos una nave enemiga aleatoria
 		int32 Index = FMath::RandRange(0, TNavesEnemigas.Num() - 1);
 		ANaveEnemiga* NaveEnemiga = TNavesEnemigas[Index];
 
-		// Verificar si la nave enemiga es válida
+		// Verificamos si la nave enemiga es válida
 		if (NaveEnemiga != nullptr)
 		{
 			// Obtener la posición de la nave enemiga
 			FVector PosicionNave = NaveEnemiga->GetActorLocation();
 
 			// Definir la cantidad aleatoria de bombas a lanzar
-			int32 CantidadBombas = FMath::RandRange(1, 7); // Puedes ajustar el rango según tus necesidades
+			int32 CantidadBombas = FMath::RandRange(1, 7); // Podemos ajustar el rango según nuestras necesidades
 
 			// Bucle para crear y lanzar varias bombas
 			for (int32 i = 0; i < CantidadBombas; ++i)
 			{
-				// Calcular una posición aleatoria en Y con un espacio de 200 unidades entre bombas
-				float AleatorioY = PosicionNave.Y + FMath::RandRange(-900.0f, 900.0f); // Ajusta el rango según tus necesidades
+				// Calculamos una posición aleatoria en Y con un espacio de 200 unidades entre bombas
+				float AleatorioY = PosicionNave.Y + FMath::RandRange(-900.0f, 900.0f); // Se puede ajustar el rango segun nuestras necesidades
 
-				// Definir la posición de la bomba
+				// Definimos la posición de la bomba
 				FVector PosicionBomba = FVector(PosicionNave.X, AleatorioY, PosicionNave.Z);
 
-				// Rotación por defecto (puedes ajustarla según tus necesidades)
+				// Rotación por defecto (podemos ajustarla según nuestras necesidades)
 				FRotator RotacionBomba = FRotator::ZeroRotator;
 
 				// Spawnear la bomba en la posición aleatoria calculada
