@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\SIS457\\ExamenLAB\\Source\\ExamenLAB\\ExamenLAB.Build.cs",
+		"C:\\SIS457\\ExamenLAB\\Source\\ExamenLAB.Target.cs",
+		"C:\\SIS457\\ExamenLAB\\Source\\ExamenLABEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

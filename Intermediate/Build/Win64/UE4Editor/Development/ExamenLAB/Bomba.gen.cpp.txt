@@ -1,0 +1,5 @@
+C:\SIS457\ExamenLAB\Intermediate\Build\Win64\UE4Editor\Development\ExamenLAB\Definitions.ExamenLAB.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\SIS457\ExamenLAB\Source\ExamenLAB/Bomba.h
+C:\SIS457\ExamenLAB\Intermediate\Build\Win64\UE4Editor\Inc\ExamenLAB\Bomba.generated.h

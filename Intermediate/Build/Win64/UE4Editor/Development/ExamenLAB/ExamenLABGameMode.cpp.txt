@@ -1,0 +1,19 @@
+C:\SIS457\ExamenLAB\Intermediate\Build\Win64\UE4Editor\Development\ExamenLAB\Definitions.ExamenLAB.h
+C:\SIS457\ExamenLAB\Source\ExamenLAB\ExamenLABGameMode.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\SIS457\ExamenLAB\Intermediate\Build\Win64\UE4Editor\Inc\ExamenLAB\ExamenLABGameMode.generated.h
+C:\SIS457\ExamenLAB\Source\ExamenLAB\ExamenLABPawn.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\SIS457\ExamenLAB\Intermediate\Build\Win64\UE4Editor\Inc\ExamenLAB\ExamenLABPawn.generated.h
+C:\SIS457\ExamenLAB\Source\ExamenLAB\NaveEnemiga.h
+C:\SIS457\ExamenLAB\Intermediate\Build\Win64\UE4Editor\Inc\ExamenLAB\NaveEnemiga.generated.h
+C:\SIS457\ExamenLAB\Source\ExamenLAB\Bomba.h
+C:\SIS457\ExamenLAB\Intermediate\Build\Win64\UE4Editor\Inc\ExamenLAB\Bomba.generated.h

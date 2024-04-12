@@ -1,0 +1,2 @@
+C:\SIS457\ExamenLAB\Intermediate\Build\Win64\UE4Editor\Development\ExamenLAB\Definitions.ExamenLAB.h
+C:\SIS457\ExamenLAB\Source\ExamenLAB\ExamenLAB.h

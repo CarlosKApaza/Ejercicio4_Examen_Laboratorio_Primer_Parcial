@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ExamenLAB.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{1AA75C8C-B912-4A1A-BFAB-93060F9C0713}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ExamenLAB.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ExamenLABEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{A3B41D4E-3CAB-458A-92F8-F16F89F9AF2A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ExamenLAB">
+      <UniqueIdentifier>{38F51478-0308-4D74-9FDD-560F08B636DC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ExamenLAB\Bomba.cpp">
+      <Filter>Source\ExamenLAB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ExamenLAB\Bomba.h">
+      <Filter>Source\ExamenLAB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ExamenLAB\BombaComponente.cpp">
+      <Filter>Source\ExamenLAB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ExamenLAB\BombaComponente.h">
+      <Filter>Source\ExamenLAB</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\ExamenLAB\ExamenLAB.Build.cs">
+      <Filter>Source\ExamenLAB</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ExamenLAB\ExamenLAB.cpp">
+      <Filter>Source\ExamenLAB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ExamenLAB\ExamenLAB.h">
+      <Filter>Source\ExamenLAB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ExamenLAB\ExamenLABGameMode.cpp">
+      <Filter>Source\ExamenLAB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ExamenLAB\ExamenLABGameMode.h">
+      <Filter>Source\ExamenLAB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ExamenLAB\ExamenLABPawn.cpp">
+      <Filter>Source\ExamenLAB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ExamenLAB\ExamenLABPawn.h">
+      <Filter>Source\ExamenLAB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ExamenLAB\ExamenLABProjectile.cpp">
+      <Filter>Source\ExamenLAB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ExamenLAB\ExamenLABProjectile.h">
+      <Filter>Source\ExamenLAB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ExamenLAB\NaveEnemiga.cpp">
+      <Filter>Source\ExamenLAB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ExamenLAB\NaveEnemiga.h">
+      <Filter>Source\ExamenLAB</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

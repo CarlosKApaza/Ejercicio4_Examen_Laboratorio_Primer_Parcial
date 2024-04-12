@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ExamenLAB",
+			"Path": "C:\\SIS457\\ExamenLAB\\Source\\ExamenLAB.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ExamenLABEditor",
+			"Path": "C:\\SIS457\\ExamenLAB\\Source\\ExamenLABEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
