@@ -5,12 +5,10 @@
 #include "NaveEnemiga.h"
 #include "Bomba.h"
 
-
 AExamenLABGameMode::AExamenLABGameMode()
 {
 	// set default pawn class to our character class
 	DefaultPawnClass = AExamenLABPawn::StaticClass();
-
 }
 
 void AExamenLABGameMode::BeginPlay()
@@ -29,13 +27,13 @@ void AExamenLABGameMode::BeginPlay()
 										
 	if (world != nullptr)
 	{
-		// crear 5 naves enemigas
+		// crear 7 naves enemigas
 		for (int i = 0; i < 7; i++)
 		{
-			ANaveEnemiga* naveEnemiga = world->SpawnActor<ANaveEnemiga>(ubicacionNaveActual, rotacionNave);
-			TNavesEnemigas.Add(naveEnemiga);
+			ANaveEnemiga* naveEnemiga = world->SpawnActor<ANaveEnemiga>(ubicacionNaveActual, rotacionNave); // spawnear la nave enemiga al mundo
+			TNavesEnemigas.Add(naveEnemiga); // añadir la nave enemiga a la lista de naves enemigas
 			//ubicacionNaveActual.X += 200.0f;
-			ubicacionNaveActual.Y += 200.0f;
+			ubicacionNaveActual.Y += 200.0f; // para que las naves tengan una separación en Y de 200 unidades
 		}
 
 	}
@@ -51,8 +49,8 @@ void AExamenLABGameMode::LanzarBombasAleatorias()
 	if (World != nullptr && TNavesEnemigas.Num() > 0)
 	{
 		// Obtenermos una nave enemiga aleatoria
-		int32 Index = FMath::RandRange(0, TNavesEnemigas.Num() - 1);
-		ANaveEnemiga* NaveEnemiga = TNavesEnemigas[Index];
+		int32 Index = FMath::RandRange(0, TNavesEnemigas.Num() - 1); 
+		ANaveEnemiga* NaveEnemiga = TNavesEnemigas[Index]; // Obtenemos la nave enemiga en la posición aleatoria
 
 		// Verificamos si la nave enemiga es válida
 		if (NaveEnemiga != nullptr)

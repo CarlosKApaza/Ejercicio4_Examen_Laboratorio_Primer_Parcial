@@ -38,12 +38,6 @@
     <ClInclude Include="..\..\Source\ExamenLAB\Bomba.h">
       <Filter>Source\ExamenLAB</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\ExamenLAB\BombaComponente.cpp">
-      <Filter>Source\ExamenLAB</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ExamenLAB\BombaComponente.h">
-      <Filter>Source\ExamenLAB</Filter>
-    </ClInclude>
     <None Include="..\..\Source\ExamenLAB\ExamenLAB.Build.cs">
       <Filter>Source\ExamenLAB</Filter>
     </None>

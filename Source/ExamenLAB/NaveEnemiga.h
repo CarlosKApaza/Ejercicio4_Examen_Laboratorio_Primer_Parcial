@@ -15,7 +15,7 @@ class EXAMENLAB_API ANaveEnemiga : public AActor
 
 public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Projectile, meta = (AllowPrivateAccess = "true"))
-	UStaticMeshComponent* mallaNave;
+	UStaticMeshComponent* mallaNave; // malla de la nave
 
 private:
 	FVector posicion;
@@ -47,9 +47,9 @@ public:
 
 // funcion para que la nave se mueva
 public:
-	void MoverNave(float DeltaTime);
+	void MoverNave(float DeltaTime); // función para mover la nave
 
 protected:
-	UPROPERTY(EditAnywhere, Category = "Movimiento")
-	float velocidadY;
+	UPROPERTY(EditAnywhere, Category = "Movimiento") // EditAnywhere para que se pueda modificar desde el editor
+	float velocidadY; // velocidad de la nave en el eje Y
 };

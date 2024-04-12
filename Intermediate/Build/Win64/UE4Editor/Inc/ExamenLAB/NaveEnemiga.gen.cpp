@@ -66,7 +66,9 @@ void EmptyLinkFunctionForGeneratedCodeNaveEnemiga() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANaveEnemiga_Statics::NewProp_velocidadY_MetaData[] = {
 		{ "Category", "Movimiento" },
+		{ "Comment", "// EditAnywhere para que se pueda modificar desde el editor\n" },
 		{ "ModuleRelativePath", "NaveEnemiga.h" },
+		{ "ToolTip", "EditAnywhere para que se pueda modificar desde el editor" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANaveEnemiga_Statics::NewProp_velocidadY = { "velocidadY", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANaveEnemiga, velocidadY), METADATA_PARAMS(Z_Construct_UClass_ANaveEnemiga_Statics::NewProp_velocidadY_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANaveEnemiga_Statics::NewProp_velocidadY_MetaData)) };
@@ -101,7 +103,7 @@ void EmptyLinkFunctionForGeneratedCodeNaveEnemiga() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANaveEnemiga, 1855086239);
+	IMPLEMENT_CLASS(ANaveEnemiga, 3493373423);
 	template<> EXAMENLAB_API UClass* StaticClass<ANaveEnemiga>()
 	{
 		return ANaveEnemiga::StaticClass();

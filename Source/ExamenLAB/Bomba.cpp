@@ -7,7 +7,7 @@
 #include "Engine/StaticMesh.h"
 
 
-// Sets default values
+// Constructor por defecto
 ABomba::ABomba()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
@@ -19,25 +19,23 @@ ABomba::ABomba()
 	MallaBomba->SetStaticMesh(mallaBomba.Object);
 	MallaBomba->SetupAttachment(RootComponent);
 
-	velocidadBombaX = -200.0f; // define la direccion de la nave y la velocidad
+	velocidadBombaX = -200.0f; // define la direccion de la bomba
 }
 
 // Called when the game starts or when spawned
 void ABomba::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
 void ABomba::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	MoverBomba(DeltaTime);
-
+	MoverBomba(DeltaTime); // Llamamos a la función para mover la bomba
 }
 
-void ABomba::MoverBomba(float DeltaTime)
+void ABomba::MoverBomba(float DeltaTime) 
 {
 	//Obtenemos la posición actual del actor o naves
 	FVector PosicionBombaActual = GetActorLocation(); // Get para acceder a la posición del actor
@@ -51,10 +49,8 @@ void ABomba::MoverBomba(float DeltaTime)
 	// Verificamos si la bomba ha alcanzado el límite superior o inferior
 	if (NuevaPosicionBombaX <= -1090.0f)
 	{
-		//NuevaPosicionBombaX = -310.0f; // para que vaya de izquierda a derecha
-		Destroy();
+		Destroy(); // Destruimos la bomba cuando llegue al límite -1090.0f
 	}
-
 	// Establecemos o modificamos valores para la nueva posición del actor
 	SetActorLocation(FVector(NuevaPosicionBombaX, PosicionBombaActual.Y + NuevaY, PosicionBombaActual.Z)); // para que la nave se mueva horizontalmente
 

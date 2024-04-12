@@ -6,8 +6,8 @@
 #include "GameFramework/GameModeBase.h"
 #include "ExamenLABGameMode.generated.h"
 
-class ANaveEnemiga;
-class ABomba;
+class ANaveEnemiga; // declaramos la clase ANaveEnemiga
+class ABomba; // declaramos la clase ABomba
 
 UCLASS(MinimalAPI)
 class AExamenLABGameMode : public AGameModeBase
@@ -18,15 +18,15 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	TArray<ANaveEnemiga* > TNavesEnemigas;
+	TArray<ANaveEnemiga* > TNavesEnemigas; // lista de naves enemigas
 
 protected:
-	void LanzarBombasAleatorias();
+	void LanzarBombasAleatorias(); // función para lanzar bombas aleatorias
 
-	FTimerHandle BombasAleatorias;
+	FTimerHandle BombasAleatorias; // temporizador para lanzar bombas aleatorias
 
 public:
-	AExamenLABGameMode();
+	AExamenLABGameMode(); // constructor
 };
 
 

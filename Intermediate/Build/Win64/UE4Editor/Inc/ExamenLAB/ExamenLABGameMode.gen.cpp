@@ -40,10 +40,12 @@ void EmptyLinkFunctionForGeneratedCodeExamenLABGameMode() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AExamenLABGameMode_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "// declaramos la clase ABomba\n" },
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "ExamenLABGameMode.h" },
 		{ "ModuleRelativePath", "ExamenLABGameMode.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
+		{ "ToolTip", "declaramos la clase ABomba" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AExamenLABGameMode_Statics::StaticCppClassTypeInfo = {
@@ -73,7 +75,7 @@ void EmptyLinkFunctionForGeneratedCodeExamenLABGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AExamenLABGameMode, 2042348627);
+	IMPLEMENT_CLASS(AExamenLABGameMode, 2140130684);
 	template<> EXAMENLAB_API UClass* StaticClass<AExamenLABGameMode>()
 	{
 		return AExamenLABGameMode::StaticClass();

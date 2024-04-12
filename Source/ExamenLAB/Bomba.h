@@ -41,9 +41,9 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-protected:
 
-	void MoverBomba(float DeltaTime);
-	UPROPERTY(EditAnywhere, Category = "Movimiento")
-	float velocidadBombaX;
+protected:
+	void MoverBomba(float DeltaTime); // función para mover la bomba
+	UPROPERTY(EditAnywhere, Category = "Movimiento") // EditAnywhere para que se pueda modificar desde el editor
+	float velocidadBombaX; // velocidad de la bomba en el eje X
 };
